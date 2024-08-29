@@ -5,7 +5,7 @@ This is a Flutter-based Spin-the-Wheel game that can be compiled to run as a Jav
 ## Features
 - Spin-the-wheel animation with customizable segments.
 - State management using Cubit.
-- Functional and unit test cases.
+- Functional test cases.
 - Compatible with web and mobile platforms.
 
 ## Demo Video

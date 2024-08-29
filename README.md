@@ -1,16 +1,34 @@
-# spin_game
+# Spin-the-Wheel Game
 
-A new Flutter project.
+This is a Flutter-based Spin-the-Wheel game that can be compiled to run as a JavaScript application with identical functionality to the native app.
 
-## Getting Started
+## Features
+- Spin-the-wheel animation with customizable segments.
+- State management using Cubit.
+- Functional and unit test cases.
+- Compatible with web and mobile platforms.
 
-This project is a starting point for a Flutter application.
+## Demo Video
+![Spin-the-Wheel Demo](https://drive.google.com/file/d/1wucxfqyWXmYj24XTCk_Pe2mzpobJKRui/view?usp=sharing)
 
-A few resources to get you started if this is your first Flutter project:
+### Steps to Install
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/priyaji1/spin_the_wheel.git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd your-repository
+   ```
+3. **Get the dependencies:**
+   ```bash
+   flutter pub get
+   ```
+4. **Run the app:**
+    - On Android: `flutter run`
+    - On Web: `flutter run -d chrome`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tests
+Run the following command to execute the test cases:
+```bash
+flutter test

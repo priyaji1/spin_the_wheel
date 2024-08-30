@@ -15,11 +15,7 @@ void defineIntegrationTest() {
     app.main();
     await tester.pump(const Duration(seconds: 2));
     await tester.pumpAndSettle();
-
-    // Wrap the ElevatedButton widget in a Scaffold for testing
-
     expect(find.text(AppConstants.spinNow), findsOneWidget); // Check if ElevatedButton exists
-
     await tester.tap(find.text(AppConstants.spinNow)); // Use the defined key here
     await tester.pump(const Duration(seconds: 10));
     await tester.pumpAndSettle();
